@@ -1,13 +1,17 @@
+/*All the code will be affected by the following css attributes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Everything inside the body has white color */
+
 body {
     background-color: #d9dcd6;
 }
 
+/*the following changes are for the header and the navigation bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* format and addition of background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +63,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* first image and thrid of the main content are positioned left */ 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* 2nd image is positioned right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* All the content is displaying */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Adding structure to the side bar information */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,6 +140,8 @@ p {
     max-width: 150px;
 }
 
+/* Adding structure/colors to the article part of the website*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +168,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Sizing the images, adding sizes to the content */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,7 +195,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* structure to the footer information  */
 .footer {
     padding: 30px;
     clear: both;
